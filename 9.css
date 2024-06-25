@@ -1,0 +1,74 @@
+header{
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: rgba(20, 141, 20, 0.233);
+}
+h2{
+    .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+}
+
+
+h3{
+    .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      background-color: rgba(20, 141, 20, 0.233);
+      border-radius: 5px;
+}
+
+
+@media(max-width:550px)
+{/* Celular*/
+    section{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    footer{
+        text-align: center;
+        margin-right: 40px;
+        margin-left: 40px;
+        background-color: rgba(20, 141, 20, 0.233);
+        border-radius: 5px;
+    }
+}
+
+@media(min-width:551px)
+{ /*tablet*/
+    #carouselExampleIndicators{
+        margin-left: 20px;
+        margin-right: 20px;
+        }
+        section{
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        footer{
+            text-align: center;
+            margin-right: 40px;
+            margin-left: 40px;
+            background-color: rgba(20, 141, 20, 0.233);
+            border-radius: 5px;
+        }
+}
+
+@media(min-width:851px)
+{/*computadora de escritorio*/
+   
+    section{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    footer{
+        text-align: center;
+        margin-right: 40px;
+        margin-left: 40px;
+        background-color: rgba(20, 141, 20, 0.233);
+        border-radius: 5px;
+    }
+}
